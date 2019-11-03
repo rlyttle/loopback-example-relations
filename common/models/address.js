@@ -5,4 +5,8 @@
 
 module.exports = function(Address) {
 
+    let account = require("./account");
+
+    // Account.test() function should be available by intellisense
+    // account.t
 };

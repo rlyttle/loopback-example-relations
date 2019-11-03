@@ -5,4 +5,8 @@
 
 module.exports = function(Account) {
 
+    Account.test = function() {
+        console.log("Account.test()");
+    }
+
 };
