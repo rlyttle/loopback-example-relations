@@ -9,4 +9,7 @@ module.exports = function(Address) {
 
     // Account.test() function should be available by intellisense
     // account.t
+
+    let app = require("../../server/server");
+    // app.models.Account.t
 };
